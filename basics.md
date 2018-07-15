@@ -190,8 +190,8 @@ Beatles and Elvis Presley
   SELECT *
     FROM tutorial.billboard_top_100_year_end
     WHERE year = 1985
-    AND ("group" NOT ILIKE '%madonna%'
-    OR "group" NOT ILIKE '%phil collins%')
+    AND "group" NOT ILIKE '%madonna%'
+    AND "group" NOT ILIKE '%phil collins%'
   ```
 
 12. All number 1 songs in the data set.
